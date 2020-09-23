@@ -38,6 +38,6 @@ class Owner
       cat.owner != self ? 
       self.cats << cat 
       end 
-  end
+  # end
     
 end
