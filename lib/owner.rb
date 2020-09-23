@@ -14,9 +14,9 @@ class Owner
     
   end
   
-  def name=(name)
-   @name = name 
-  end 
+  # def name=(name)
+  # @name = name 
+  # end 
   
   def say_species 
     return "I am a human."
