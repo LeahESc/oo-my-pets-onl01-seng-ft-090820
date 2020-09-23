@@ -31,8 +31,8 @@ class Owner
   
   def reset_all 
     owner = self.new 
-    @name = name 
-    @species = human
+    @name = nil 
+    @species = nil
   end
   
   
