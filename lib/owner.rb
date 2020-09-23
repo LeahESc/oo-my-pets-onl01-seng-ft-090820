@@ -40,7 +40,7 @@ class Owner
     # binding.pry 
     cat = Cat.new(name, owner = self, mood = "nervous") 
      cat.owner = self
-    # self.cats << cat
+    self.cats << cat
     # binding.pry 
       # Cat.all.each do |cat| 
       # if cat.owner != self 
