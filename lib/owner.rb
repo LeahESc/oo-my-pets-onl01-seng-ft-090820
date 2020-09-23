@@ -40,7 +40,7 @@ class Owner
     # binding.pry 
     cat = Cat.new(cat_name, self) 
     # cat.owner = self
-    self.cats << cat
+    # self.cats << cat
   end
   
   
