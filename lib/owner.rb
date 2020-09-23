@@ -41,10 +41,10 @@ class Owner
       Cat.all.each do |cat| 
       if cat.owner != self 
           cat.owner = self 
-          self.cats << cat
+          # self.cats << cat
       end 
     end
-    # self.cats 
+     self.cats << cat
   end
   
     
