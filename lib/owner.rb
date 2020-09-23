@@ -37,8 +37,8 @@ class Owner
     # Cat.all.each do |cat| 
     #   if cat.owner != self 
       self.cats << cat 
-      end 
-    end
+    #   end 
+    # end
   end
   
     
