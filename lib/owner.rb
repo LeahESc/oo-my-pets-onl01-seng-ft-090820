@@ -38,12 +38,12 @@ class Owner
   
   def buy_cat(cat)
     # binding.pry 
-      # Cat.all.each do |cat| 
-      # if cat.owner != self 
-          cat.owner = self 
+      Cat.all.each do |cat| 
+      if cat.owner != self 
+          # cat.owner = self 
           self.cats << cat
-    #   end 
-    # end
+      end 
+    end
     self.cats 
   end
   
