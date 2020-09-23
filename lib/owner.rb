@@ -37,11 +37,13 @@ class Owner
   end 
   
   def buy_cat(cat)
+    cat = Cat.new 
+    cat.owner = self 
+    self.cats << cat
     # binding.pry 
       # Cat.all.each do |cat| 
       # if cat.owner != self 
-      cat.owner = self 
-      self.cats << cat
+      # cat.owner = self 
   end
   
   
