@@ -30,7 +30,8 @@ class Owner
   end
   
   def reset_all 
-    @@all = []
+    owner = self.new 
+    
   end
   
   
