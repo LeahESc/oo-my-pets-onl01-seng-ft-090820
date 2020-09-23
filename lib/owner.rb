@@ -29,7 +29,7 @@ class Owner
     @@all.count
   end
   
-  def reset_all 
+  def self.reset_all 
     owner = self.new 
     @name = nil 
     @species = nil
