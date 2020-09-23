@@ -34,8 +34,8 @@ class Owner
   end 
   
   def buy_cat(cat)
-     Cat.all.each do |cat| 
-      if cat.owner != self 
+    # Cat.all.each do |cat| 
+    #   if cat.owner != self 
       self.cats << cat 
       end 
     end
