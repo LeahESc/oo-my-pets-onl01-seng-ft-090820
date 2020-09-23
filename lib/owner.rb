@@ -30,9 +30,7 @@ class Owner
   end
   
   def self.reset_all 
-    owner = self.new 
-    @name = nil 
-    @species = nil
+    owner = self.new(name, species)
   end
   
   
