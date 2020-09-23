@@ -37,7 +37,7 @@ class Owner
     # Cat.all.each do |cat| 
     #   if cat.owner != self 
       self.cats << cat 
-      self.cats +=1 
+      self.cats.size +=1 
     #   end 
     # end
   end
