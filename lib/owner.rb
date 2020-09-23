@@ -38,7 +38,7 @@ class Owner
   
   def buy_cat(cat)
     # binding.pry 
-    cat = Cat.new(name, self, mood = "nervous") 
+    cat = Cat.new(name, owner = self, mood = "nervous") 
      cat.owner = self
     # self.cats << cat
     # binding.pry 
