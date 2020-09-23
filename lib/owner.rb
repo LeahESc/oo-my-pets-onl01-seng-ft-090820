@@ -9,6 +9,7 @@ class Owner
     @name = name 
     @species = "human"
     @@all << self 
+    @pets = [] 
   end
   
   def say_species 
@@ -37,7 +38,8 @@ class Owner
   
   def buy_cat(cat)
     # binding.pry 
-    owner = self 
+    owner = self
+    cat.owner = self 
     # Cat.all.each do |cat| 
     #   if cat.owner != self 
     self.cats << cat
