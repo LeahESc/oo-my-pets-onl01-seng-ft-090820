@@ -34,6 +34,11 @@ class Owner
   end 
   
   def buy_cat
-    cat_arr = Cat.all.select {|cat| cat.owner == self}
+    owned_cats = Cat.all.select {|cat| cat.owner == self}
+     Cat.all.each do |cat| 
+      cat.owner != self ? 
+      owned_cats << cat 
+    end 
+  end
     
 end
