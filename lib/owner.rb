@@ -43,6 +43,10 @@ class Owner
     # self.cats << cat
   end
   
+   def buy_dog(dog_name)
+    # binding.pry 
+    dog = Dog.new(dog_name, self) 
+  end
   
   def walk_dogs
     dog.mood = "happy"
