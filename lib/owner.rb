@@ -31,7 +31,7 @@ class Owner
   
   def self.reset_all 
     owner = self.new(name, species = "human")
-    self.count = 0 
+    @@all = []
   end
   
   
