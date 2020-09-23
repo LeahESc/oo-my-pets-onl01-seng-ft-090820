@@ -35,10 +35,11 @@ class Owner
   
   def buy_cat
      Cat.all.each do |cat| 
-      cat.owner != self ? 
+      if cat.owner != self 
       self.cats << cat 
       end 
     end
   end
+  
     
 end
