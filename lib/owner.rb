@@ -9,14 +9,6 @@ class Owner
     @@all << self 
   end
   
-  # def name
-  #   @name
-  # end
-  
-  # def name=(name)
-  # @name = name 
-  # end 
-  
   def say_species 
     return "I am a human."
   end
@@ -33,6 +25,9 @@ class Owner
     @@all = []
   end
   
+  def cats
+    Cat.all.find {|cat| cat.owner ==self} 
+  end 
   
     
 end
