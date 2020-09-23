@@ -37,8 +37,9 @@ class Owner
   end 
   
   def buy_cat(cat)
+    binding.pry 
     cat = Cat.new(name, owner, mood = "nervous") 
-    cat.owner = Self
+    cat.owner = self
     self.cats << cat
     # binding.pry 
       # Cat.all.each do |cat| 
