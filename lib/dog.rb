@@ -15,4 +15,7 @@ class Dog
       @@all 
     end
     
+    def mood 
+      mood = @mood 
+      if self.walk
 end
