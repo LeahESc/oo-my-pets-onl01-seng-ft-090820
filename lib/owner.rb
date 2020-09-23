@@ -63,4 +63,7 @@ class Owner
     end
   end
     
+    def list_pets
+     (dogs + cats).each {|p| puts p.name}
+    end
 end
