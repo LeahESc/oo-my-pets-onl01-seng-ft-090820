@@ -15,10 +15,7 @@ class Dog
       @@all 
     end
     
-    def buy_dog(dog_name)
-    # binding.pry 
-    dog = Dog.new(dog_name, self) 
-  end
+   
   
     # def mood 
     #   mood = @mood 
