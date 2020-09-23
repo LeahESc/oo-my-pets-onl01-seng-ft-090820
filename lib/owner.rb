@@ -41,10 +41,6 @@ class Owner
     cat = Cat.new(name, owner = self, mood = "nervous") 
      cat.owner = self
     self.cats << cat
-    # binding.pry 
-      # Cat.all.each do |cat| 
-      # if cat.owner != self 
-      # cat.owner = self 
   end
   
   
