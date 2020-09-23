@@ -10,7 +10,8 @@ class Owner
   end
   
   def name
-    self.name = @name
+    self.name = !@name ? 
+    
   end
   
   def name=(name)
