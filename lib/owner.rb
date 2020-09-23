@@ -30,7 +30,6 @@ class Owner
   end
   
   def self.reset_all 
-    # owner = self.new(name, species = "human")
     @@all = []
   end
   
