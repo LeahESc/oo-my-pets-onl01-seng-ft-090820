@@ -49,7 +49,7 @@ class Owner
   end
   
   def walk_dogs
-    binding.pry
+    # binding.pry
     dog = Dog.new(name, self)
     mood = "happy"
     dog.mood = "happy"
