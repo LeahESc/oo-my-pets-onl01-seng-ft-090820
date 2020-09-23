@@ -52,7 +52,6 @@ class Owner
     binding.pry
     dog = Dog.new(name, self)
     mood = "happy"
-    @mood = mood 
     dog.mood = "happy"
   end 
     
