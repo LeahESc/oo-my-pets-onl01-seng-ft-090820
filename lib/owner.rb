@@ -9,13 +9,13 @@ class Owner
     @@all << self 
   end
   
-  # def name
-  #   self.name = @name  
-  # end
+  def name
+    self.name = @name  
+  end
   
-  def name=(name)
-  @name = name 
-  end 
+  # def name=(name)
+  # @name = name 
+  # end 
   
   def say_species 
     return "I am a human."
