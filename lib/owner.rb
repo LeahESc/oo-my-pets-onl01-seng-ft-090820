@@ -39,8 +39,9 @@ class Owner
     # binding.pry 
     # Cat.all.each do |cat| 
     #   if cat.owner != self 
-      cat_arr = self.cats
-      cat_arr << cat 
+    self.cats << cat
+    cat.owner = self 
+      # self.cats 
     #   end 
     # end
   end
