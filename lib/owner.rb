@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   # attr_accessor 
   attr_reader :name, :species
@@ -34,10 +36,10 @@ class Owner
   end 
   
   def buy_cat(cat)
+    binding.pry 
     # Cat.all.each do |cat| 
     #   if cat.owner != self 
       self.cats << cat 
-      self.cats.size +=1 
     #   end 
     # end
   end
