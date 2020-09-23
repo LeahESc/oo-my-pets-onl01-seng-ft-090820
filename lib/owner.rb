@@ -43,8 +43,8 @@ class Owner
           cat.owner = self 
           self.cats << cat
       end 
-      self.cats
     end
+    self.cats 
   end
   
     
