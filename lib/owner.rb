@@ -42,7 +42,7 @@ class Owner
       if cat.owner != self 
           cat.owner = self 
           # self.cats << cat
-      end 
+      # end 
     end
      self.cats << cat
   end
